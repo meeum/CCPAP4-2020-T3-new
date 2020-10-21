@@ -6,3 +6,17 @@ h1 {
     background-color: yellow;
     color: red;
 }
+
+header {
+    background-color: magenta;
+}
+
+main {
+    background-color: red;
+}
+
+.layout-wide {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
