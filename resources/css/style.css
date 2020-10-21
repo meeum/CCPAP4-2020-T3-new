@@ -1,11 +1,27 @@
+/* GLOBAL DEFAULTS  */
+
 body {
     background-color: burlywood;
 }
+
+
+
+/* HEADINGS AND TYPOGRAPHY */
 
 h1 {
     background-color: yellow;
     color: red;
 }
+
+/* LAYOUTS */
+.layout-wide {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* HEADER & MAIN & FOOTER  */
 
 header {
     background-color: magenta;
@@ -15,8 +31,8 @@ main {
     background-color: red;
 }
 
-.layout-wide {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/* NAVIGATION */
+
+
+/* MODULES */
+
