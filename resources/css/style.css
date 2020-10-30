@@ -1,4 +1,5 @@
 /* GLOBAL DEFAULTS  */
+@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
 
 body {
     background-color: burlywood;
@@ -7,10 +8,11 @@ body {
 }
 
 a {
-    color: palegreen;
+    color: rgb(250, 9, 218);
 }
 
-img {
+img,
+iframe {
     max-width: 100%;
 }
 
@@ -32,10 +34,7 @@ h2 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-
     padding: 20px;
-
-   
 }
 
 
@@ -53,4 +52,20 @@ main {
 
 
 /* MODULES */
+.news-component {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+
+    .news-component {
+        background-color: pink;
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+
+    }
+}
 
