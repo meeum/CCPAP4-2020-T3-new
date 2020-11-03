@@ -21,6 +21,15 @@ iframe {
 
 /* HEADINGS AND TYPOGRAPHY */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1 {
     
 }
@@ -55,6 +64,11 @@ main {
 .news-component {
     background-color: #f1f1f1;
     padding: 20px;
+}
+
+.news-component h2 {
+    color: yellow;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 800px) {
