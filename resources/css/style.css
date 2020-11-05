@@ -13,10 +13,12 @@ body {
     font-family: 'Karla', sans-serif;
 
     line-height: 1.8;
+    color: #34495e;
+    font-size: 18px;
 }
 
 a {
-    font-weight: 700;
+    color: #ff5b5e;
 }
 
 img,
@@ -35,6 +37,7 @@ h3,
 h4,
 h5 {
     font-family: 'Rubik', sans-serif;
+    color: #28313b;
 }
 
 h1 {
@@ -78,10 +81,13 @@ h5 {
 
 header {
     background-color: #4952a3;
+    color: white;
 }
 
 footer {
     background-color: #4952a3;
+    color: #ffffff;
+    text-align: center;
 }
 
 main {
