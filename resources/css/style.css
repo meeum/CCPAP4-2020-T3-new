@@ -1,16 +1,22 @@
 /* GLOBAL DEFAULTS  */
 @import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&family=Rubik:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
 
 body {
-    background-color: burlywood;
+    
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Karla', sans-serif;
+
+    line-height: 1.8;
 }
 
 a {
-    color: rgb(250, 9, 218);
+    font-weight: 700;
 }
 
 img,
@@ -28,8 +34,7 @@ h2,
 h3,
 h4,
 h5 {
-    color: green;
-    font-family: 'Kalam', cursive;
+    font-family: 'Rubik', sans-serif;
 }
 
 h1 {
@@ -42,7 +47,7 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: red;
+   
 }
 
 h4 {
@@ -52,6 +57,11 @@ h4 {
 
 h5 {
     font-size: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: 22px;
 }
 
 /* LAYOUTS */
@@ -65,8 +75,13 @@ h5 {
 
 /* HEADER & MAIN & FOOTER  */
 
+
 header {
-    background-color: magenta;
+    background-color: #4952a3;
+}
+
+footer {
+    background-color: #4952a3;
 }
 
 main {
@@ -78,8 +93,10 @@ main {
 
 /* MODULES */
 .news-component {
-    background-color: #f1f1f1;
+    
     padding: 20px;
+
+   
 }
 
 .news-component h2 {
@@ -89,10 +106,10 @@ main {
 @media screen and (min-width: 800px) {
 
     .news-component {
-        background-color: pink;
+        
 
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
 
     }
