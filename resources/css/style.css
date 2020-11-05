@@ -21,6 +21,10 @@ a {
     color: #ff5b5e;
 }
 
+a:hover {
+    color: #28313b;
+}
+
 img,
 iframe {
     max-width: 100%;
