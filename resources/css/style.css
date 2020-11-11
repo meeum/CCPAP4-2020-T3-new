@@ -88,6 +88,22 @@ header {
     color: white;
 }
 
+.logo-wrapper img {
+    max-width: 120px;
+}
+
+.site-title {
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    text-align: right;
+}
+
+header .layout-wide {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+
 footer {
     background-color: #4952a3;
     color: #ffffff;
