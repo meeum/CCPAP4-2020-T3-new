@@ -89,19 +89,31 @@ header {
 }
 
 .logo-wrapper img {
-    max-width: 120px;
+    max-width: 60px;
 }
 
 .site-title {
-    font-size: 72px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
     text-align: right;
 }
 
+@media screen and (min-width: 600px) {
+
+    .logo-wrapper img {
+        max-width: 120px;
+    }
+
+    .site-title {
+        font-size: 72px;
+    }
+
+}
+
 header .layout-wide {
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 2fr 8fr;
 }
 
 footer {
