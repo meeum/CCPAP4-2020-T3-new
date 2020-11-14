@@ -123,6 +123,37 @@ main {
 }
 
 /* NAVIGATION */
+.navigation {
+    background-color: #4952a3;
+}
+
+.nav-inner ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-inner li {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-inner a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    color: #f1f1f1;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .nav-inner ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
 
 
 /* MODULES */
