@@ -122,6 +122,21 @@ main {
     
 }
 
+/* subs form */
+.subscription-wrapper {
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.subscription-wrapper label {
+    color: #34495e;
+    display: block;
+    font-size: 26px;
+}
+
+
+
 /* NAVIGATION */
 .navigation {
     background-color: #4952a3;
