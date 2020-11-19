@@ -168,6 +168,12 @@ main {
     font-weight: bold;
     font-size:20px;
     color: #f1f1f1;
+    
+}
+
+.nav-inner a:hover {
+    text-shadow: -16px 9px 5px #000;
+    color: #ff5b5e;
 }
 
 /* this is for mobile view  */
