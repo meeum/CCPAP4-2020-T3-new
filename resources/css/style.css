@@ -151,7 +151,17 @@ main {
 /* NAVIGATION */
 .navigation {
     background-color: #4952a3;
+
+    
 }
+
+@media screen and (min-width: 800px) {
+    .navigation {
+        position: sticky;
+        top: 0;
+    }
+}
+
 
 .nav-inner ul {
     list-style: none;
