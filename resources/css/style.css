@@ -151,8 +151,6 @@ main {
 /* NAVIGATION */
 .navigation {
     background-color: #4952a3;
-
-    
 }
 
 @media screen and (min-width: 800px) {
@@ -273,3 +271,36 @@ main {
     background-color: yellow;
     min-height: 500px;
 }
+
+
+/* hero component */
+
+.hero-component {
+    position: relative;
+}
+
+.hero-component img {
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+
+    .hero-component .hero-content {
+       
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+        text-align: center;
+
+        display: flex;
+        align-items: center; 
+    }
+
+    .hero-component h1 {
+        color: #fff;
+        text-shadow: 1px 1px 10px #28313b;
+    }
+}
+
