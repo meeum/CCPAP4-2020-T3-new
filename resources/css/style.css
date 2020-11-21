@@ -30,8 +30,13 @@ a:hover {
 }
 
 img,
-iframe {
+iframe,
+video {
     max-width: 100%;
+}
+
+video {
+    width: 100%;
 }
 
 
