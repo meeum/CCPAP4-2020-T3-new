@@ -182,7 +182,7 @@ main {
 }
 
 .nav-inner a:hover {
-    text-shadow: -16px 9px 5px #000;
+    /* see .hero-component for example of text shadow */
     color: #ff5b5e;
     border-bottom: 3px solid #ff5b5e;
 }
