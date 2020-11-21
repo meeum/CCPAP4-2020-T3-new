@@ -40,7 +40,41 @@ video {
 }
 
 
+/* general elements */
 
+.tooltip-parent {
+    position: relative;
+}
+
+.text-tooltip-parent {
+    border-bottom: 1px dashed #ff5b5e;
+}
+
+.tooltip {
+    background-color: #28313b;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 10px;
+
+    position: absolute;
+    right: -15px;
+    bottom: -8px;
+
+    visibility: hidden;
+}
+
+.text-tooltip-parent .tooltip {
+    bottom: -20px;
+    right: 0;
+    background-color: #ff5b5e;
+    
+} 
+
+
+
+.tooltip-parent:hover .tooltip {
+    visibility: visible;
+}
 
 /* HEADINGS AND TYPOGRAPHY */
 
@@ -308,3 +342,6 @@ main {
     }
 }
 
+
+
+/* */
