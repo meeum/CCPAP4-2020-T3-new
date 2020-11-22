@@ -60,7 +60,12 @@ video {
     right: -15px;
     bottom: -8px;
 
-    visibility: hidden;
+    transition: .3s;
+    opacity: 0;
+
+   
+
+
 }
 
 .text-tooltip-parent .tooltip {
@@ -73,7 +78,8 @@ video {
 
 
 .tooltip-parent:hover .tooltip {
-    visibility: visible;
+    
+    opacity: 1;
 }
 
 /* HEADINGS AND TYPOGRAPHY */
@@ -140,6 +146,11 @@ header {
 
 .logo-wrapper img {
     max-width: 50px;
+    transition: .3s;
+}
+
+.logo-wrapper a:hover img {
+    transform: scale(1.2);
 }
 
 .site-title {
@@ -243,6 +254,8 @@ main {
     .nav-inner {
         max-height: 0;
         overflow: hidden;
+
+        transition: .3s;
     }
 
     .nav-inner.open {
