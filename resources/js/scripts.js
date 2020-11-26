@@ -1,3 +1,5 @@
+/* this is to open and close the nav */
+
 function openNav() {
 
     let toggler = document.querySelector('.nav-prompt');
@@ -10,3 +12,14 @@ function openNav() {
 }
 
 openNav();
+
+
+// this is for the gallery
+
+var lightbox = new SimpleLightbox('.gallery a', {
+    //options go here
+});
+
+
+
+
