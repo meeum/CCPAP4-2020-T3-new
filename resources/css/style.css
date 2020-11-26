@@ -278,6 +278,9 @@ main {
         overflow: hidden;
 
         transition: .3s;
+
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .nav-inner.open {
