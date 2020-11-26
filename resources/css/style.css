@@ -40,6 +40,8 @@ video {
 }
 
 
+
+
 /* general elements */
 
 .tooltip-parent {
@@ -80,6 +82,12 @@ video {
 .tooltip-parent:hover .tooltip {
     
     opacity: 1;
+}
+
+/* image styles */
+
+.full-width-image {
+    width: 100%;
 }
 
 /* HEADINGS AND TYPOGRAPHY */
@@ -201,12 +209,14 @@ main {
 /* NAVIGATION */
 .navigation {
     background-color: #4952a3;
+
 }
 
 @media screen and (min-width: 800px) {
     .navigation {
         position: sticky;
         top: 0;
+        z-index: 50;
     }
 }
 
@@ -234,7 +244,7 @@ main {
 .nav-inner a:hover {
     /* see .hero-component for example of text shadow */
     color: #ff5b5e;
-    border-bottom: 3px solid #ff5b5e;
+    /* border-bottom: 3px solid #ff5b5e; */
 }
 
 .nav-inner a:hover:before {
