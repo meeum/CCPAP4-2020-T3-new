@@ -301,11 +301,23 @@ main {
 }
 
 
+/* internal nav */
+.internal-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.internal-nav a {
+    font-weight: bold;;
+}
+
 
 /* MODULES */
 .news-component {
     
-    padding: 20px;
+    
 
    
 }
@@ -319,7 +331,7 @@ main {
     .news-component {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 40px;
     }
 }
 
